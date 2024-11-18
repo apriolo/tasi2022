@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Projeto CRUD com React TASI 2024
+Arian Alves Priolo, 010620024, SI 8 TERMO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto foi criado usando react-dom, o projeto pode ser acessado no Vercel: https://tasi2024.vercel.app/
 
-## Available Scripts
+## Login
+Pagina de login
+<br/>
+<img width="407" alt="login" src="https://github.com/user-attachments/assets/9c47ca83-5f00-46b7-92b8-2d2c055d0296">
 
-In the project directory, you can run:
+Login com Erros
+<br/>
+<img width="327" alt="login erros" src="https://github.com/user-attachments/assets/028aaf48-6d32-4d71-8ee7-a6b75e4a4160">
 
-### `npm start`
+## Registrar
+Pagina de registro
+<br/>
+<img width="380" alt="registrar" src="https://github.com/user-attachments/assets/ed05f195-1509-4556-aaec-6a0e39cf1e24">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Registro com Erro
+<br/>
+<img width="375" alt="registrar erros" src="https://github.com/user-attachments/assets/1b1eecf9-1aa2-4dd7-a5e7-817c819898e8">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dashboard
+Pagina inicial com a listagem toda
+<br/>
+<img width="532" alt="dashboard" src="https://github.com/user-attachments/assets/4de6a4e6-a82d-4e54-9a1b-5404ee1f8241">
 
-### `npm test`
+## Buscar Produtos
+Buscar produtos por string
+<br/>
+<img width="518" alt="busca produto" src="https://github.com/user-attachments/assets/1c99a20a-8ea4-44c3-b316-3a91ba4f82a6">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cadastrar Produtos
+Cadastrar Produtos
+<br/>
+<img width="402" alt="cadastrar produto" src="https://github.com/user-attachments/assets/94bd1dbc-8046-46b9-ac67-786f7e7f2d37">
 
-### `npm run build`
+Cadastrar com Erros
+<br/>
+<img width="351" alt="cadastrar produto erro" src="https://github.com/user-attachments/assets/69ae7091-c3b9-4e43-9d22-fee432b45f6b">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Editar Produtos
+Editar produtos com Excluir, basta clicar no card do produto na listagem da dashboard
+<br/>
+<img width="351" alt="editar produto" src="https://github.com/user-attachments/assets/df78cc0d-30ae-4ade-ba8e-d06ccb2f3711">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Excluir
+<br/>
+<img width="509" alt="excluir produto" src="https://github.com/user-attachments/assets/7afbdd6b-4264-4441-908e-a45cca38dee0">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
