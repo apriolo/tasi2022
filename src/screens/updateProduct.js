@@ -83,9 +83,7 @@ const UpdateProduct = () => {
     const deleteProduto = async () => {
         const url = 'https://backend-aula.vercel.app/app/produtos';
         var auth = localStorage.getItem("TOKEN");
-        const config = {
-            headers: { Authorization: `Bearer ${auth}` }
-        };
+        const config = { Authorization: `Bearer ${auth}` };
 
         let data = {
             id: product._id
